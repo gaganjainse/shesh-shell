@@ -1,4 +1,4 @@
-"""Offline tests for sesha-shell (subprocess calls are mocked)."""
+"""Offline tests for shesha-shell (subprocess calls are mocked)."""
 from __future__ import annotations
 
 import sys
@@ -6,7 +6,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-import sesha_shell.server as srv  # noqa: E402
+import shesha_shell.server as srv  # noqa: E402
 
 
 def test_switch_workspace_dispatches(monkeypatch):
