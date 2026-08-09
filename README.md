@@ -1,5 +1,12 @@
-# 🖥️ shesha-shell
+# shesha-shell
 
+**Hyprland/Quickshell control over MCP** — Window, workspace, opacity, and visual-state tools.
+
+- Layer: Soma (Soma)
+- License: GPL-3.0
+- Part of: [Shesha ecosystem](https://github.com/gaganjainse/shesha-ecosystem)
+
+---
 **Shesha Soma — Hyprland/Quickshell control over MCP (stdio).**
 Exposes workspaces, windows, focus, opacity, and power-saver visuals to the agent.
 
