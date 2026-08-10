@@ -11,7 +11,12 @@ import subprocess
 
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("hyprland-control")
+try:
+    from shesha_audit.mcp_guard import GuardedMCP as _MCP
+except ImportError:
+    _MCP = FastMCP
+
+mcp = _MCP("hyprland-control")
 
 
 def _hypr_json(*args: str):
