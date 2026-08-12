@@ -9,14 +9,9 @@ from __future__ import annotations
 import json
 import subprocess
 
-from fastmcp import FastMCP
+from shesh_audit.mcp_guard import GuardedMCP as _MCP
 
-try:
-    from shesh_audit.mcp_guard import GuardedMCP as _MCP
-except ImportError:
-    _MCP = FastMCP
-
-mcp = _MCP("hyprland-control")
+mcp = _MCP("shesh-shell")
 
 
 def _hypr_json(*args: str):
