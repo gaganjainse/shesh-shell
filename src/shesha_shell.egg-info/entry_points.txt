@@ -1,2 +1,2 @@
 [console_scripts]
-shesha-shell-mcp = shesha_shell.server:main
+shesh-shell-mcp = shesh_shell.server:main
