@@ -1,0 +1,2 @@
+[console_scripts]
+shesh-shell-mcp = shesh_shell.server:main

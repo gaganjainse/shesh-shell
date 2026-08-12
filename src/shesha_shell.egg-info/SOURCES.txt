@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/shesha_shell/__init__.py
+src/shesha_shell/server.py
+src/shesha_shell.egg-info/PKG-INFO
+src/shesha_shell.egg-info/SOURCES.txt
+src/shesha_shell.egg-info/dependency_links.txt
+src/shesha_shell.egg-info/entry_points.txt
+src/shesha_shell.egg-info/requires.txt
+src/shesha_shell.egg-info/top_level.txt
+tests/test_server.py

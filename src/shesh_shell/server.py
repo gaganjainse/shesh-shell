@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Shesha MCP server — Hyprland control via hyprctl.
+"""Shesh MCP server — Hyprland control via hyprctl.
 
 Exposes workspace, window, focus and visual-effect controls to Newelle (stdio MCP).
-License: GPL-3.0   See docs/SHESHA/06_SHESHA_AGENT.md
+License: GPL-3.0   See docs/SHESH/06_SHESH_AGENT.md
 """
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ import subprocess
 from mcp.server.fastmcp import FastMCP
 
 try:
-    from shesha_audit.mcp_guard import GuardedMCP as _MCP
+    from shesh_audit.mcp_guard import GuardedMCP as _MCP
 except ImportError:
     _MCP = FastMCP
 
@@ -110,7 +110,7 @@ def fullscreen() -> str:
 
 
 def main() -> None:
-    """Entry point for the shesha-shell-mcp console script."""
+    """Entry point for the shesh-shell-mcp console script."""
     mcp.run(transport="stdio")
 
 

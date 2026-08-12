@@ -1,0 +1,2 @@
+[console_scripts]
+shesha-shell-mcp = shesha_shell.server:main
