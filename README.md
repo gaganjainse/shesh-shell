@@ -1,4 +1,4 @@
-> ⚠️ **Consolidated into [shesh-core](https://github.com/gaganjainse/shesh-core)** — this module now lives in the shesh-core monorepo (same package name, same console script). Archived 2026-08-13.
+>  **Consolidated into [shesh-core](https://github.com/gaganjainse/shesh-core)** — this module now lives in the shesh-core monorepo (same package name, same console script). Archived 2026-08-13.
 
 # shesh-shell
 
@@ -25,7 +25,6 @@ uv run pytest -q
 uv run ruff check .
 uv run shesh-shell-mcp     # runs the stdio MCP server
 ```
-
 All Hyprland interactions go through `hyprctl`; tests mock subprocess so they need no display.
 
 ## Security
